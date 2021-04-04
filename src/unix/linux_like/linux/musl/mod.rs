@@ -706,6 +706,7 @@ extern "C" {
 
 cfg_if! {
     if #[cfg(any(target_arch = "x86_64",
+                 target_arch = "llir_x86_64",
                  target_arch = "aarch64",
                  target_arch = "mips64",
                  target_arch = "powerpc64",
